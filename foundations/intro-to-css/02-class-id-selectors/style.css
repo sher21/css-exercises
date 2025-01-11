@@ -5,11 +5,11 @@
 * **The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px
 * **The fourth element**: a light green background, a font size of 24px, and bold */
 
-.odd, .odd_three {
+.odd {
     background-color:#ffc0cb;
     font-family:"Verdana", "DejaVu Sans", sans-serif;
 }
-.odd_three {
+.three {
     font-size:24px;
 }
 #even_two {
