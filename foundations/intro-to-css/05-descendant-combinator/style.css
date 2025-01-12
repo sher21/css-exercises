@@ -1,0 +1,23 @@
+/* Styling CSS */
+/* * Only the `p` elements that are descendants of the `div` element should have a yellow background,
+ red text, a font size of 20px, and center aligned.*/
+
+ div .text {
+    background-color:rgb(255, 255, 0);
+    color:red;
+    font-size:20px;
+    text-align:center;
+ }
+ 
+ /* Mistakes to avoid , make sure that for type selector / element selector, it didn't have
+ fullstop in front, only the name of element, like div like text. only class selector have . 
+ 
+ Selector - syntax
+ type / group - just element name
+ class - . (class name)
+ id - # (id name)
+ multiple class - . (class name) 
+ group - . class name, .class name
+ chain - .class name.class name
+ descendant combinator - mix between class and type*/
+ 
